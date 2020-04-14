@@ -33,7 +33,7 @@ public class Ch7Activity2 extends AppCompatActivity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                //第三个参数代表位置
+                //第二个参数代表位置
                 String content = list.get(i).toString();
                 Toast.makeText(Ch7Activity2.this,content,Toast.LENGTH_SHORT).show();
             }

@@ -16,4 +16,13 @@
         <item>@drawable/img</item>
         <item>str1</item>
     </array>
+
+    <string-array name="countries">
+        <item>Belgium</item>
+        <item>France</item>
+        <item>Italy</item>
+        <item>Germany</item>
+        <item>Spain</item>
+    </string-array>
+
 </resources>
